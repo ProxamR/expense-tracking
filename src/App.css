@@ -1,0 +1,80 @@
+.App {
+  width:400px;margin:0px auto;
+  box-sizing: border-box;
+
+}
+
+.box {
+  
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
+
+.vertical {
+  border-left: 1px solid silver;
+  height: 60px;
+  position:absolute;
+}
+
+.horizontal {
+  border-bottom: 1px solid grey;
+  width: 400px;
+}
+
+.h3 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-weight: bold;
+}
+
+
+.h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+
+  font-weight: bold;
+}
+
+
+.shadow {
+  border: 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  background-color: #fff;
+  margin-top: 10px;
+
+}
+
+.form{
+  margin-top: 10px;
+  font-size: larger;
+  display: block;
+
+  
+}
+
+ .delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  transform: translate(-150%,0%);
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+ .shadow:hover .delete-btn {
+  opacity: 1;
+}
